@@ -35,7 +35,7 @@ for root, dirs, files in os.walk(directory):
 import os
 import time
 
-directory=r'C:\pythonproj\pythonProject2'
+directory='.'
 for root, dirs, files in os.walk(directory):
     for file in files:
         filepath = os.path.join(file)
